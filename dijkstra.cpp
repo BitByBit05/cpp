@@ -34,8 +34,8 @@ public:
 
         while (!pq.empty())
         {
-            int u = pq.top().second;
-            int d = pq.top().first;
+            int u = pq.top().second; //node
+            int d = pq.top().first; //weight
             pq.pop();
 
             for (auto neighbor : l[u])
